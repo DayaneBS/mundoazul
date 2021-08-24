@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var numerosEscolhidos = 30;
+
+    while (numerosEscolhidos <=40) {
+        
+        if (numerosEscolhidos == 33){
+            numerosEscolhidos = numerosEscolhidos + 1;
+        }
+        if (numerosEscolhidos == 37) {
+            numerosEscolhidos = numerosEscolhidos + 1
+        }
+        else{
+        mostra(numerosEscolhidos);
+        numerosEscolhidos = numerosEscolhidos + 1;
+        }
+    
+              
+            
+    }
+
+
+    mostra("FIM");
+</script>
